@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/13390a94f8.js" crossorigin="anonymous"></script>
+</head>
+<nav class="menu" id="menu">
+    <a href="#" class="active">Home</a>
+    <div class="content" id="links">
+        <a href="keyboardtester.html">Keyboard Tester</a>
+        <a href="match.html">Match Game</a>
+        <a href="breakout.html">Breakout</a>
+        <a href="tetris.html">Tetris (game is not functional)</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <a href="#" class="icon" onclick="myFunction()">
+        <i class="fas fa-bars"></i>
+    </a>
+</nav>
+<body>
+    <div class="slideshow">
+        <div class="reviews">
+            <a href="keyboardtester.html"><img src="Image/keyboard.jpg" alt="Keyboard" style="width: 100%;"></a>
+            <div class="caption">Some keys not working? Try out the Keyboard tester.</div>
+        </div>
+        <div class="reviews">
+            <a href="dEternalReview.html"><img src="image/matchgame.jpg" alt="matchgame" style="width: 100%;"></a>
+            <div class="caption">Bored? How about a simple match game.</div>
+        </div>
+        <div class="reviews">
+            <a href="breakout.html"><img src="Image/breakout.JPG" alt="breakout" style="width: 100%;"></a>
+            <div class="caption">Really bored? Try Breakout</div>
+        </div> 
+        <a class="prev" onclick="movePics(-1)">&#10094;</a>
+        <a class="next" onclick="movePics(1)">&#10095;</a>       
+    </div>
+    <br>
+</body>
+<script src="./js/script.js"></script>
+<footer><p>&copy;2020 triOS JS Final Project | Created by <a href="#">Jigar</a></p></footer>
+</html>

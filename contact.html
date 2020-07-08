@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title> 
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/13390a94f8.js" crossorigin="anonymous"></script>
+</head>
+<nav class="menu" id="menu">
+    <a href="#" class="active">Contact Us</a>
+    <div class="content" id="links">
+        <a href="index.html">Home</a>
+        <a href="keyboardtester.html">Keyboard Tester</a>
+        <a href="match.html">Match Game</a>
+        <a href="breakout.html">Breakout</a>
+        <a href="tetris.html">Tetris (game is not functional)</a>
+    </div>
+    <a href="#" class="icon" onclick="myFunction()">
+        <i class="fas fa-bars"></i>
+    </a>
+</nav>
+<body>
+    <div class="contactbox">
+        <h1>Sign-up</h1>
+        <h3>As you may have noticed the Tetris game is not working and we need you!</h3>
+        <hr>
+        <form name="signup" action="" method="POST">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name: </label>
+            <input type="text" id="lname" name="lname"><br>                
+            <label for="email">E-mail:    </label>
+            <input type="email" id="email" name="email"><br>
+            <input id="buttonForm" type="submit" onclick="formAlert()">
+        </form>
+    </div>
+</body>
+<script src="./js/script.js"></script>
+<footer><p>&copy;2020 triOS JS Final Project | Created by <a href="#">Jigar</a></p></footer>
+</html>
